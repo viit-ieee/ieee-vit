@@ -1,0 +1,73 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.wrapper  {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width:100%;
+  text-align: center;
+  max-height:200px; 
+
+}
+.wrapper .heading {
+  color:rgb(206, 59, 59);
+}
+marquee h4 a {
+  text-decoration: none;
+}
+nav  {
+  margin:0 auto;
+  width:80%;
+  border: 2px solid rgb(220, 220, 220);
+  background-color:lightgray;
+  color:black;
+  text-align: center;
+}
+nav ul {
+ 
+ display: grid;
+ grid-template-columns: 23% 23% 23% 23%;
+  
+}
+nav ul li {
+  list-style-type: none;
+  margin:0 50px;
+  border-right: 1px soild black;
+}
+nav ul li::after {
+  border: 1px soild red;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight:800;
+  color:#295164;
+}
+nav ul li a:hover {
+  color:#77909c;
+}
+.slideshow-container {
+  width: 60%;
+  margin: 10px auto;
+  height: 200px;
+  background-color:black;
+
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
