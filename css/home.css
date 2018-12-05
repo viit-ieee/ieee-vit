@@ -3,11 +3,11 @@ body {
 }
 	.blink{
 		width:90%;
-		height: 50px;
+		height: 25px;
 	   
 		padding: 15px;	
 		text-align: center;
-		line-height: 50px;
+		line-height: 25px;
 	}
 	
 
