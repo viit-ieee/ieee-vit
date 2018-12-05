@@ -1,14 +1,58 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
+	.blink{
+		width:90%;
+		height: 50px;
+	   
+		padding: 15px;	
+		text-align: center;
+		line-height: 50px;
+	}
+	
 
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-inverse {
+        text-align: center;
+    }
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-inverse {
+  text-align: center;
+}
+
+
+
+	span{
+		font-size: 25px;
+		font-family: cursive;
+		color: blue;
+		animation: blink 1s linear infinite;
+	}
+	
+	@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
 
 .wrapper  {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 19% 48% 33%;
   width:100%;
   text-align: center;
-  max-height:200px; 
+  max-height:300px; 
 
 }
 .wrapper .heading {

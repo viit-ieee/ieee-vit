@@ -21,10 +21,72 @@
 </head>
 <body>
   <!--header -->
-  <header class="wrapper">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IEEE VIT</title>
+  <link rel="stylesheet" type="text/css" href="./css/home.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js'></script>
+   
+
+
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+  body {
+      position: relative; 
+  }
+  .affix {
+  text-align: center;
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+  text-align: center;
+  text-align: center;
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+  text-align: center;
+     position: relative;
+     top: 50px;
+  }
+   	nav ul{ 
+	text-align: center;
+	list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+ 
+  </style>
+</head>
+<body>
+  <!--header -->
+  <div class="header">
+  <header class="wrapper" style="margin-top:10px;">
     <!--IEEE logo-->
    <div>
-        <img src="./images/IEEE_logo.png" width="250" height="150">
+        <img src="./images/vitt1.jpg" width="150" height="120">
 		<div class="text">
 		Branch code : STB1034 <br>
 		School code : 60108973
@@ -34,38 +96,68 @@
      <!--Name of college-->
      <div>
 
-        <h2 >IEEE STUDENT BRANCH</h1>
-         <h3  class="heading">Vignan's <br> Institute of Information Technology
-		 <br> (AUTONOMOUS)</h2>
-         <h3  class="heading" style="color:#2F4F4F; "> Advancing Technology For Humanity</h2>
+        
+         <table class="table-responsive" align="center">
+		 <tbody>
+		 <tr>
+		 <td style="padding:0 15px 0 15px;"><h1 style="color:red">VIGNAN's</h2></td>
+		 <td style="padding:0 0px 0 25px;"><B><h4>INSTITUTE OF INFORMATION TECHNOLOGY<br>(AUTONOMOUS)<h2><B></td></tr>
+		 
+		 </tbody>
+		 </table>
+		 
+		 <table class="table-responsive" align="center" cellpadding="40px">
+		 <tbody>
+		 <tr>
+		 <td style="padding:0 15px 0 15px;"><h4 >Re-accredited by NAAC with</h4></td>
+		 <td  style="padding:0 15px 0 15px;"><h3 style="color:red"><B>'A'<B></h3></td>
+		 <td style="padding:0 15px 0 15px;">Grade (CGPA 3.41/4.00)</td></tr>
+		 
+		 </tbody>
+		 </table>
+		
+		
+         <h3  class="blink" style="color:#2F4F4F;margin-top:0px"> <span style="color:#2F4F4F;margin-top:0px">Advancing Technology For Humanity</span></h2>
        
      </div>
       <!--VIIT logo-->
      <div>
-       <img src="./images/vitt1.jpg" width="150" height="150">
+       <img  src="./images/IEEE_logo.png" width="250" height="150">
      </div>
-  </header>
+ 
   <!--Scroll links-->
-  	
+  	 </header>
   <!--Navbar -->
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">IEEE STUDENT BRANCH - VIIT</a>
-    </div>
-    <ul class="nav navbar-nav">
-			<li ><a href="index.html">Home</a></li>
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  <div class="container-fluid" style="max-height:1220px">
+   
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav">
+			<li  ><a href="index.html">Home</a></li>
           
           <li class="active"><a href="about.html">ABOUT</a></li>
           <li  ><a href="events.html">EVENTS</a></li>
           <li ><a href="members.html">MEMBERS</a></li>
     </ul>
-	<ul class="nav navbar-nav navbar-right">
-     <h4>Contact us on <p>Email:<strong ><a href="mailto:ieeestudentsviit@gmail.com">ieeestudentsviit@gmail.com</a></strong></p>	</h4>
-      
-    </ul>
+      </div>
+    </div>
   </div>
+
 </nav>
+  <div class="alert alert-danger alert-dismissible" role="alert" style="max-height:100px">
+   <marquee width ="85%"  onmouseover="this.stop();" onmouseout="this.start();">
+      <h4><a  href="events.html">click here to see about E-Medha &nbsp;&nbsp;&nbsp;&nbsp; click here to see about Guest lecture.&nbsp;&nbsp;&nbsp;&nbsp;click here to see the latest events.&nbsp;&nbsp;&nbsp;&nbsp;Want to contact us?</a></h4>
+	  
+   </marquee>
+  </div>
+  
+	  
+	  
+
+
+</div>
 <div class="container-fluid">
 <div class="row">
 	<div class="alert alert-danger alert-dismissible" role="alert">
