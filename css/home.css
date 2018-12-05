@@ -49,7 +49,7 @@ body {
 
 .wrapper  {
   display: grid;
-  grid-template-columns: 19% 48% 33%;
+  grid-template-columns: 19% 50% 31%;
   width:100%;
   text-align: center;
   max-height:300px; 
